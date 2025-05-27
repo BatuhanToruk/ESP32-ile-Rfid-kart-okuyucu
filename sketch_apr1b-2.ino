@@ -19,10 +19,10 @@ byte bufferLen = 18;
 byte readBlockData[18];
 
 String card_holder_name;
-const String sheet_url = "https://script.google.com/macros/s/AKfycbyNbACd7Js2dkJGJOTmgvGktYLby7u6H_PCyPSamI5TExoQr6btyKsZFHTqout1V8-fEg/exec?name=";
+const String sheet_url = "google sheets linki";
 
-#define WIFI_SSID "B.T"
-#define WIFI_PASSWORD "634Batuhan634."
+#define WIFI_SSID "bağlanacak internetin adını yazın"
+#define WIFI_PASSWORD "internetin şifresini girin"
 
 void setup() {
   Serial.begin(9600);

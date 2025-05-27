@@ -14,7 +14,7 @@ scope = [
     'https://www.googleapis.com/auth/drive'
 ]
 creds = ServiceAccountCredentials.from_json_keyfile_name(
-    'rfid-attendance-project-460911-4d53ab0ee056.json', scope
+    'google apisten indirdiğimiz .json dosyasının adı', scope
 )
 client = gspread.authorize(creds)
 sheet = client.open("RFID Based Attendance System").sheet1

@@ -1,4 +1,4 @@
-var ss = SpreadsheetApp.openById('1sof2u4kMF8VBCUfqg2myY2w7HCKQNzL_Lg1kj6U8lL4');
+var ss = SpreadsheetApp.openById('google sheets linkindeki id yi girin');
 var sheet = ss.getSheetByName('Sayfa1');
 var timezone = "Europe/Istanbul";
 

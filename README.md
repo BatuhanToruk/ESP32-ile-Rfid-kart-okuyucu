@@ -1,6 +1,10 @@
 # ESP32-ile-Rfid-kart-okuyucu
 ESP32 aracılığı ile rfid 522 modülü ile kart okuyucu ve streamlit ve google apis ile veri görselleştirilmesi
 
+app.py kodu temel görselleştirme için kullanacağımız kod main.py sadece veriyi çekebildiğimizi görmek için kullanabileceğiniz test kodudur apr1a kodu kart tanıtmak için verilen kod önce karı tanımlayın bunun için bu kod lazım apr1b kodu ise sistemin tamam ve devamlı çalışması için verilen ve sürekli kullanılacak son final kodudur.
+
+kodlarda kendi dosyalarınıza göre ve kendi çalışmanıza göre değiştirmeniz gereken bazı yerler bulunmaktadır kod içerisini inceleyiniz......
+
 Bu proje, ESP32 mikrodenetleyici, MFRC522 RFID okuyucu, Google Apps Script
 ve Streamlit tabanlı Python uygulamasını bir araya getirerek, RFID teknolojisinin günlük ya-
 samdaki pratik uygulamalarına yönelik kapsamlı ve düsük maliyetli bir çözüm sunmaktadır.

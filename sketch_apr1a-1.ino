@@ -6,7 +6,7 @@ MFRC522 mfrc522(SS_PIN, RST_PIN);
 MFRC522::MIFARE_Key key;
 int blockNum = 2;
 
-byte blockData[16] = { "Batuhan-TORUK" };  //Enter Card Holder Name in 16 character. You can't use space here.
+byte blockData[16] = { "karta isim verin" };  //Enter Card Holder Name in 16 character. You can't use space here.
 
 byte bufferLen = 18;
 byte readBlockData[18];
